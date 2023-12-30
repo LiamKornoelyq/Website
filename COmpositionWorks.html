@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Works</title>
+	<link rel="icon" type="image/x-icon" href="https://i1.sndcdn.com/avatars-799UJGNuZ6LHMFEZ-KjZOoA-t500x500.jpg">
+</head>
+<style>
+	.flex-container 
+	{
+	  display: flex;
+	  flex-wrap: nowrap;
+	  align-items: left;
+	  justify-content: left;
+	}	
+	.button
+	{
+		background-color: white;
+		border: 0px solid black;
+		color: black;
+		padding: 4px;
+		text-align: center;
+		display: inline-block;
+		margin: 4x 2px;
+		cursor: pointer;
+		border-radius: 0px;
+		transition-duration: 0.4s;
+		width: 120px;
+	}
+	
+	.button:hover
+	{
+		background-color: rgba(0, 0, 0, .1);
+	}
+	.tab 
+	{
+	  overflow: hidden;
+	  border: 1px solid #ccc;
+	  background-color: #f1f1f1;
+	}
+
+	/* Style the buttons inside the tab */
+	.tab button 
+	{
+	  background-color: inherit;
+	  float: left;
+	  border: none;
+	  outline: none;
+	  cursor: pointer;
+	  padding: 14px 16px;
+	  transition: 0.3s;
+	  font-size: 17px;
+	}
+
+	/* Change background color of buttons on hover */
+	.tab button:hover 
+	{
+	  background-color: #ddd;
+	}
+
+	/* Create an active/current tablink class */
+	.tab button.active 
+	{
+	  background-color: #ccc;
+	}
+
+	/* Style the tab content */
+	.tabcontent 
+	{
+	  display: none;
+	  padding: 6px 12px;
+	  border: 1px solid #ccc;
+	  border-top: none;
+	}
+	.center 
+	{
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	}
+</style>
+<body>
+	<div class="flex-container" style="align-items: center; justify-content: center;">
+		<div class="button" style="margin: 15px;"> <!-- Recordings -->
+			<a href="file:///C:/Users/LiamK/Desktop/Website/COmpositionWorks.html"> Works </a>
+		</div>
+		<div style="margin: 20px;"> <!-- name and logo -->
+			<p style="text-align: center; font-size:30px; margin: 5px; color: black;">Liam Kornoely</p>
+			<a href="file:///C:/Users/LiamK/Desktop/Website/Landing%20page.html">
+				<img src="https://i1.sndcdn.com/avatars-799UJGNuZ6LHMFEZ-KjZOoA-t500x500.jpg" alt="ahh" style="margin-left: auto; margin-right: auto; height: 60px; width: 60px; display:block; ">
+			</a>
+			<p style="color: gray; text-align: center; font-size:24px; margin: 5px;"><i>Music Composition</i></p>
+		</div>
+		<div class="button" style="margin: 15px;"> <!-- Bio -->
+			<a href="file:///C:/Users/LiamK/Desktop/Website/CompositionBio.html"> Bio </a>
+		</div>
+	</div>
+
+	<div class="tab" style="margin-left: auto; margin-right: auto; display: block;">
+	  <button class="tablinks" onclick="openCity(event, 'smallEns')" id="defaultOpen">Small Ensemble and Solo Works</button>
+	  <button class="tablinks" onclick="openCity(event, 'largEns')">Large Ensemble Works</button>
+	  <button class="tablinks" onclick="openCity(event, 'electroic')">Electronic Works</button>
+	<!--  <button class="tablinks" onclick="openCity(event, 'educational')">Educational Band Works</button> -->
+	  <button class="tablinks" onclick="openCity(event, 'film')">Film Works</button>
+	</div>
+	
+<!-- small ensemble works -->
+	<div id="smallEns" class="tabcontent">		
+		<div style="border: 2px; solid; border-style: ridge; margin: 10px;">
+			<p style="font-size: 20px; margin:20px; text-align: center;"><b>Brass quintets</b></p>
+
+<!--		
+<!-- Walking with Giants
+			<div class="flex-container" style="border: 2px solid; border-style: outset; margin: 10px; ">
+				<div>
+					<p style="font-size: 20px; margin: 20px;"><b>Walking With Giants (2020)</b></p>
+					<p style="font-size: 15px; margin: 20px;">d: 3:00</p>
+					<p style="font-size: 15px; margin: 10px;"><i>"Walking With Giants" is a tranquil brass quintet piece that transports the listener to landscapes reminiscent of lush, rolling hills. The composition's title reflects the powerful imagery of towering natural formations, and the music captures the essence of vast, open spaces and the serene beauty of the natural world.</i></p>
+					<audio controls>
+						<source src="assets\Walking with Giants.mp3" type="audio/mpeg">
+					</audio>
+					<p style="font-size: 10px; margin: 5px;"><i>Performance by: Jessica Barrick (Trumpet 1), Annaleigh Babcock (Trumpet 2), Joe Muhl (French Horn), Vincent Moniaci (Trombone), Brandon Benson (Tuba)</i></p>
+					<div>
+						<a href="https://drive.google.com/file/d/10oZw4o-_N_8Tws7ki-7Xbbs6wroYLlnr/view?usp=sharing" target="_blank" style="margin: 5px;">View the Score</a>
+					</div>
+				</div>
+				<div>
+					<img src="https://www.publicdomainpictures.net/pictures/370000/nahled/rolling-hills-1601072702maL.jpg" alt="Rolling Hills">
+				</div>
+			</div>
+			-->
+<!-- coruscating sky -->
+			<div class="flex-container" style="border: 2px solid; border-style: outset; margin: 30px; background-color: #cccbca;">
+				<div>
+					<img src="CoruscaringSkyCover.png" alt="Coruscaring Sky" style="height:550px; width: 450px;">
+				</div>
+				<div style="margin: 10px;">
+					<p style="font-size: 20px; margin: 20px;"><b>Coruscating Sky (2023)</b></p>
+					<p style="font-size: 15px; margin: 20px;">d: 9:00</p>
+					<p style="font-size: 15px; margin: 10px;"><i>Few things in this world are more beautiful than the coruscate colors of the setting sun. Listen as the sun slowly sets over the horizon and night time falls upon the earth. <br>This piece was originally written to be played around the audience in a 360° area at the CCM View from the Edge concert. Unfortunately, due to recording equipment limitations this piece was only recorded in mono.</i></p>
+					<audio controls>
+						<source src="assets\Coruscating Sky.mp3" type="audio/mpeg">
+					</audio>
+					<p style="font-size: 10px; margin: 5px;"><i>Performance by: Mason Kibble (Trumpet 1), Annaleigh Babcock (Trumpet 2), Corbin Russ (French horn\Mellophone), Madison Smith (Euphonium), Beatrice Aldrich (Tuba)</i></p>
+					<div>
+						<a href="https://drive.google.com/file/d/1ARE36hZqfjexBQ4w5vhl6bs275Wt-Xeb/view?usp=sharing" target="_blank" style="margin: 5px;">View the Score</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- large ensemble works -->
+	<div id="largEns" class="tabcontent">
+		<div style="border: 2px; solid; border-style: ridge; margin: 10px;">
+			<p style="font-size: 20px; margin:20px; text-align: center;"><b>Band Works</b></p>
+			
+<!-- An Old Gold Star -->
+			<div class="flex-container" style="border: 2px solid; border-style: outset; margin: 30px; background-color: #cccbca;">
+				<div>
+					<img src="OldGoldStarCover.png" alt="Old Gold Star Cover" style="height: 550px; width: 450px;">
+				</div>
+				<div style="margin: 10px;">
+					<p style="font-size: 20px; margin: 20px;"><b>An Old Gold Star(2020)</b></p>
+					<p style="font-size: 15px; margin: 20px;">d: 5:00</p>
+					<p style="font-size: 15px; margin: 10px;"><i>Imagine you’re on the cliff of Bellevue Hill Park, overlooking the city of Cincinnati. The sun reflecting off the tall glass buildings and the bustle of traffic and life happen below you. You can feel the life of the Queens City as you sit and take it all in. <br><br> This work is not recorded yet. Below is a midi rendition. </i></p>
+					<audio controls>
+						<source src="assets\Cinci Vista - For The Bearcat Bands.mp3" type="audio/mpeg">
+					</audio>
+					<div>
+						<a href="https://drive.google.com/file/d/1K5LdhyRrIpB6sDdTwHz_EQRGxlm9EfgD/view?usp=sharing" target="_blank" style="margin: 5px;">View the Score</a>
+					</div>
+				</div>
+			</div>	
+
+<!-- Systematic Haywire -->
+			<div class="flex-container" style="border: 2px solid; border-style: outset; margin: 30px; background-color: #cccbca;">
+				<div>
+					<img src="SystematicHaywireCover.png" alt="Systematic Haywire Cover" style="height: 550px; width: 450px;">
+				</div>
+				<div style="margin: 10px;">
+					<p style="font-size: 20px; margin: 20px;"><b>Systematic Haywire(2022)</b></p>
+					<p style="font-size: 15px; margin: 20px;">d: 5:30</p>
+					<p style="font-size: 15px; margin: 10px;"><i>"Systematic Haywire" is a compelling musical exploration that delves into the intricate process of transitioning from order to chaos. This piece embarks on a sonic journey that mirrors the systematic breakdown of structure, leading to a state of controlled chaos. Through a dynamic interplay of musical elements, the composition challenges traditional notions of order and invites listeners to experience the beauty within entropy. <br><br> This work is not recorded yet. Below is a midi rendition.</i></p>
+					<audio controls>
+						<source src="assets\MSO2 - Flow 1.mp3" type="audio/mpeg">
+					</audio>
+					<div>
+						<a href="https://drive.google.com/file/d/19nNzyouq2rdGSLOquYCo5RF2oSut3E15/view?usp=sharing" target="_blank" style="margin: 5px;">View the Score</a>
+					</div>
+				</div>
+			</div>			
+		</div>
+	
+		<div style="border: 2px; solid; border-style: ridge; margin: 10px;">
+			<p style="font-size: 20px; margin:20px; text-align: center;"><b>Orcestra Works</b></p>	
+
+<!-- Space cadet -->
+			<div class="flex-container" style="border: 2px solid; border-style: outset; margin: 30px; background-color: #cccbca;">
+				<div>
+					<img src="SpaceCadetCover.png" alt="Space Cadet Cover" style="height: 550px; width: 450px;">
+				</div>
+				<div style="margin: 10px;">
+					<p style="font-size: 20px; margin: 20px;"><b>Space Cadet (2022)</b></p>
+					<p style="font-size: 15px; margin: 20px;">d: 6:40</p>
+					<p style="font-size: 15px; margin: 10px;"><i>"Space Cadet" is a captivating musical odyssey that invites listeners to embark on an interstellar journey aboard a spaceship exploring the vastness of outer space. This piece is a sonic exploration of the wonders, mysteries, and infinite possibilities that unfold as the spacecraft ventures into the cosmic expanse.</i></p>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/esOdUHN_0Bg?si=5eEo8NGIryu4YwKt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					<div>
+						<a href="https://drive.google.com/file/d/1tWYaFNejPbM4ZkvPmXV6sNa3OmoB6qSA/view?usp=sharing" target="_blank" style="margin: 5px;">View the Score</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+<!-- electronic works -->
+	<div id="electroic" class="tabcontent">
+
+<!-- Hyper train -->
+		<div class="flex-container" style="border: 2px solid; border-style: outset; margin: 30px; background-color: #cccbca;">
+			<div>
+				<img src="HyperTrainCover.png" alt="hyper Train Cover" style="height: 500px; 350px;">
+			</div>
+			<div style="margin: 5px;">
+				<p style="font-size: 20px; margin: 20px;"><b>Hyper Train(2023)</b></p>
+				<p style="font-size: 15px; margin: 20px;">d: 7:00</p>
+				<p style="font-size: 15px; margin: 10px;"><i>“Hyper Train” is an exhilarating and dynamic solo piece for mellophone, showcasing the virtuosity of the performer and the unconventional instrument. This composition takes the listener on a thrilling musical journey, evoking the sensation of a high-speed train hurtling through an ever-changing landscape of sound.</i></p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/JFTzLTgxY8Q?si=GwwYCbXf9Bsbz6BD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<p style="font-size: 10px; margin: 5px;"><i>Perfromed by: Kate Warren</i></p>
+				<div>
+					<a href="https://drive.google.com/file/d/1CEq-v8R9ixS4AMl76P1toTI4SXQuKtZU/view?usp=sharing" target="_blank" style="margin: 5px;">View the Score</a>
+				</div>
+			</div>
+		</div>
+		
+<!-- Methain Rain -->
+		<div class="flex-container" style="border: 2px solid; border-style: outset; margin: 30px; background-color: #cccbca;">
+			<div>
+				<img src="Methane Rain Cover.png" alt="Methane Rain Cover" style="height: 550px; 450px;">
+			</div>
+			<div style="margin: 5px;">
+				<p style="font-size: 20px; margin: 20px;"><b>Methane Rain(2023)</b></p>
+				<p style="font-size: 15px; margin: 20px;">d: 4:00</p>
+				<p style="font-size: 15px; margin: 10px;"><i>"Methane Rain" transports listeners to the enigmatic and otherworldly landscape of Titan, Saturn's largest moon. This piece is an imaginative sonic exploration of the atmospheric phenomenon unique to Titan – methane rain. As the music unfolds, it captures the ethereal beauty and mysterious allure of the celestial rains that cascade from Titan's hazy skies.</i></p>
+				<audio controls>
+					<source src="assets\Methane Rain.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+		</div>
+
+<!-- Methain Rain -->
+		<div class="flex-container" style="border: 2px solid; border-style: outset; margin: 30px; background-color: #cccbca;">
+			<div>
+				<img src="Pn4Fe1HcK8LTSCQNafEU--1--p59c9.jpg" alt="Winters Fitst Snow Cover" style="height: 330px; 330px;">
+			</div>
+			<div style="margin: 5px;">
+				<p style="font-size: 20px; margin: 20px;"><b>Winters First Snow(2022)</b></p>
+				<p style="font-size: 15px; margin: 20px;">d: 6:00</p>
+				<p style="font-size: 15px; margin: 10px;"><i>"Winter's First Snow" is an evocative electronic composition that captures the serene and enchanting atmosphere of the first snowfall in a deep forest. This piece transports listeners to a magical realm where the delicate dance of snowflakes transforms the woodland into a pristine, otherworldly landscape.</i></p>
+				<audio controls>
+					<source src="assets\Winters first snow.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+		</div>
+	</div>	
+	
+<!-- educational band works -->
+	<div id="educational" class="tabcontent">
+	</div>
+
+<!-- film works -->
+	<div id="film" class="tabcontent">
+
+<!-- flowers by chance -->
+		<div class="flex-container" style="border: 2px solid; border-style: outset; margin: 10px; align-items: center; justify-content: center;">
+			<div>
+				<p style="font-size: 20px; margin: 20px; text-align: center;"><b>Flowers by Chance (2023)</b></p>
+				<p style="font-size: 15px; margin: 10px;"></p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/gzLgJnigbr4?si=FJTbhqeUQU9VN0H3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin: 5px;"></iframe>
+			</div>
+		</div>
+	</div>
+</body>
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+</html>
